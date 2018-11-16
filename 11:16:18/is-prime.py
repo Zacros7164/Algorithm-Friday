@@ -17,7 +17,3 @@ def is_prime(n):
     known_primes.append(n)
     if(i == total_known_primes):
         return True
-
-
-number = int(raw_input("Give me a number. "))
-is_prime(number)
